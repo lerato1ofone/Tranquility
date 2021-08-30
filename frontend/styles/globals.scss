@@ -10,9 +10,26 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --bg: #1a1b1f;
+  --xxs-space: 0.313rem;
+  // 10px var(--xs-space)
+  --xs-space: 0.625rem;
+  // 20px var(--xs-space)
+  --s-space: 1.25rem;
+  // 40px var(--m-space)
+  --m-space: 2.5rem;
+  // 50px var(--l-space)
+  --l-space: 3.125rem;
+  // 60px var(--xl-space)
+  --xl-space: 3.75rem;
+  --secondary-color: #ff610e;
+  --primary-color: #000;
 }
