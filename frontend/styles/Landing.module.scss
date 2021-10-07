@@ -1,0 +1,39 @@
+.container {
+  height: 82vh;
+  padding: 0 9.5rem;
+  display: flex;
+  align-items: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+  .middle {
+    width: 80%;
+    height: 35%;
+    margin-left: 6.25rem;
+    margin-right: 5rem;
+    color: white;
+    position: relative;
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 0.625rem;
+    }
+
+    .slides {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .right {
+    justify-content: flex-end;
+  }
+
+  .right svg:hover {
+    cursor: pointer;
+  }
+}

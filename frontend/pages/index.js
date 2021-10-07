@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from "next/link"
 import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
+import Landing from '../components/Landing'
+
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
       <Header />
       
       <main>
-        {/* <Landing /> */}
+        <Landing />
       </main>
 
       <footer>
