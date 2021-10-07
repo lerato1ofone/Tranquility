@@ -20,7 +20,7 @@ function Text({text, type}) {
     const element = getTextElement(text, type);
 
     return (
-            <div>{element}</div>
+        <div>{element}</div>
     )
 }
 
