@@ -1,4 +1,29 @@
 .container {
   height: 90vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      margin-right: var(--s-space);
+    }
+
+    .end {
+      flex: 1;
+    }
+  }
+
+  .content {
+    width: 90%;
+    height: 60%;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: var(--m-space);
+  }
 }
