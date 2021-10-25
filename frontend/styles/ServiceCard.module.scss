@@ -1,0 +1,23 @@
+.card {
+  background: #1a1b1f;
+  box-shadow: -4px -4px 10px rgba(196, 196, 196, 0.05),
+    4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 0 1.25rem 0 2.188rem;
+
+    .image {
+      padding: 0 1.25rem 0 0;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
