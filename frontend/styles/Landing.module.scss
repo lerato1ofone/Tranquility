@@ -15,22 +15,29 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 
-  .middle {
-    width: 80%;
-    height: 35%;
-    margin-left: 6.25rem;
-    margin-right: 5rem;
-    color: white;
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
+    height: 45%;
+    width: 70%;
+    padding-left: var(--l-space);
 
-    h1 {
-      margin-top: 0;
-      margin-bottom: 0.625rem;
+    .middle {
+      color: white;
+      align-items: center;
+
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0.625rem;
+      }
     }
 
     .slides {
       position: absolute;
       bottom: 0;
+      background: red;
     }
   }
 
